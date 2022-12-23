@@ -18,7 +18,7 @@ object RetrofitInstance {
             .build()
     }
 
-    //Step 18: Create one more variable called api and pass the type of our SimpleApi Dataclass.
+    //Step 18: Create one more variable named api and pass the type of our SimpleApi Dataclass.
     //Delegates it by lazy to initialize retrofit.
     val api: SimpleApi by lazy {
         //Step 19: Call Retrofit.create function on our Retrofit
