@@ -1,5 +1,8 @@
 package com.neotica.retrofitget.model
 
-//Step 3: Make into data class.
-class Post {
-}
+data class Post(
+    val body: String,
+    val id: Int,
+    val title: String,
+    val userId: Int
+)
