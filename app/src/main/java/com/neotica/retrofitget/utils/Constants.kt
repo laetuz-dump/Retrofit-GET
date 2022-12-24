@@ -5,5 +5,6 @@ class Constants {
     companion object{
         //Step 11: Base URL
         const val BASE_URL = "https://jsonplaceholder.typicode.com"
+        const val END_URL = "posts/1"
     }
 }
